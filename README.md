@@ -68,6 +68,12 @@ This ongoing project aims to bridge **MCU-level control and FPGA signal coordina
        alt="ESP32 Schematic">
 </div>
 
+<div style="position:relative;">
+  <img src="images/results.png" 
+       style="width:340px; position:absolute; right:-420px; top:0; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Terminal UI Screenshot">
+</div>
+
 Designed and built a **custom ESP32-based HTTP photo server** with USB-C power regulation, MicroSD storage, and a SPI TFT display header using KiCad.  
 Developed **C++ firmware** for camera image capture, local storage, and Wi-Fi-based streaming.  
 Handled peripheral communication via SPI and UART interfaces, optimizing timing and buffer management for smooth data flow.  
@@ -77,12 +83,6 @@ This project highlights hands-on PCB design, embedded firmware integration, and 
 ---
 
 #### <b>Intelligent OCR Pipeline</b>
-
-<div style="position:relative;">
-  <img src="images/results.png" 
-       style="width:340px; position:absolute; right:-420px; top:0; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
-       alt="Terminal UI Screenshot">
-</div>
 
 Engineered a **multimodal OCR system** using Donut, LayoutLMv3, and DocTR to extract structured data from invoices.  
 Integrated the workflow into **Flask APIs and AWS Lambda**, linked to a PostgreSQL backend with fuzzy matching logic.  
