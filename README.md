@@ -18,6 +18,12 @@ My work bridges **hardware, firmware, and computation**, with a focus on buildin
        alt="CM4 Carrier Board Render">
 </div>
 
+<div style="position:relative;">
+  <img src="images/code_snippet3.png" 
+       style="width:370px; position:absolute; left:-440px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Code Snippet">
+</div>
+
 Initiated this project by designing a **custom two-layer Raspberry Pi Compute Module 4 (CM4) carrier board**, integrating dual displays, I²S audio DAC, and USB-C PD circuitry.  
 Started development with **Jetson Nano prototypes** for architecture testing and schematic validation before migrating to the CM4 platform, optimizing connector layout, signal routing, and thermal performance.  
 Currently developing **C/C++ firmware** for display, input, and audio control, focusing on stable Linux bring-up and sub-10 ms I/O response.  
@@ -78,7 +84,14 @@ This project highlights hands-on PCB design, embedded firmware integration, and 
 
 ---
 
-#### **Intelligent OCR Pipeline**  
+#### **Intelligent OCR Pipeline**
+
+<div style="position:relative;">
+  <img src="images/results.png" 
+       style="width:420px; position:absolute; right:-460px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Terminal UI">
+</div>
+
 Engineered a **multimodal OCR system** using Donut, LayoutLMv3, and DocTR to extract structured data from invoices.  
 Integrated the workflow into **Flask APIs and AWS Lambda**, linked to a PostgreSQL backend with fuzzy matching logic.  
 Optimized inference pipelines for 89% field-level accuracy while maintaining scalability and low-latency performance.  
