@@ -26,7 +26,7 @@ Planned next phase includes **porting the design to a CM5-based carrier board (A
 
 ---
 
-#### **Microcontroller Weather Station**  
+#### <b>Microcontroller Weather Station</b>  
 
 <div style="position:relative;">
   <img src="images/weather_station_pcb.png" 
@@ -42,7 +42,14 @@ This project highlights practical circuit design, embedded programming, and real
 
 ---
 
-#### **Real-Time Sensor Node (Embedded + FPGA Co-Design)**  
+#### <b>Real-Time Sensor Node (Embedded + FPGA Co-Design)</b>
+
+<div style="position:relative;">
+  <img src="images/code_snippet1.png" 
+       style="width:420px; position:absolute; right:-460px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Code Snippet of Project">
+</div>
+ 
 Currently developing a **real-time sensor node platform** that integrates embedded and digital hardware design to achieve sub-10 ms system latency.  
 Implementing **ESP32 firmware in C/C++** for concurrent sensor acquisition, communication, and control, while designing a **Verilog-based UART and sensor interface module** for deterministic data timing.  
 Actively co-simulating embedded firmware and HDL logic to synchronize hardware–software interaction and validate timing accuracy.  
@@ -55,7 +62,14 @@ This ongoing project aims to bridge **MCU-level control and FPGA signal coordina
 ### **Past**
 
 
-#### **ESP32 HTTP Photo Server** 
+#### <b>ESP32 HTTP Photo Server</b>
+
+<div style="position:relative;">
+  <img src="images/schematic-esp32.png" 
+       style="width:370px; position:absolute; left:-440px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="ESP32 schematic">
+</div>
+
 Designed and built a **custom ESP32-based HTTP photo server** with USB-C power regulation, MicroSD storage, and a SPI TFT display header using KiCad.  
 Developed **C++ firmware** for camera image capture, local storage, and Wi-Fi-based streaming.  
 Handled peripheral communication via SPI and UART interfaces, optimizing timing and buffer management for smooth data flow.  
