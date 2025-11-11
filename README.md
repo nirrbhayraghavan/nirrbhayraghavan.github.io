@@ -27,10 +27,18 @@ Planned next phase includes **porting the design to a CM5-based carrier board (A
 ---
 
 #### **Microcontroller Weather Station**  
+
+<div style="position:relative;">
+  <img src="images/weather_station_pcb.png" 
+       style="width:370px; position:absolute; left:-440px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Weather Station Sensor-Hat PCB Render">
+</div>
+
 Designed and completed a **custom sensor-hat PCB** for an ARM Proton board to handle PWM output, radio receiver input, and potentiometer control.  
 Currently wiring additional sensors for temperature, humidity, and pressure on a **breadboard circuit**, with ongoing **C/C++ firmware development** for sensor acquisition, data logging, and SD card integration.  
 Combining a finished PCB with flexible breadboard testing allows for rapid firmware iteration and peripheral debugging.  
 This project highlights practical circuit design, embedded programming, and real-time data acquisition at the microcontroller level.  
+
 
 ---
 
