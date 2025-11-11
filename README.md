@@ -11,6 +11,10 @@ My work bridges **hardware, firmware, and computation**, with a focus on buildin
 
 
 #### **Portable Handheld Gaming Console**  
+<p align="justify">
+  <img src="images/cm4_carrier_board.png" width="420" align="right" hspace="20" vspace="5" alt="Raspberry Pi CM4 Carrier Board Render">
+</p>
+
 Initiated this project by designing a **custom two-layer Raspberry Pi Compute Module 4 (CM4) carrier board**, integrating dual displays, I²S audio DAC, and USB-C PD circuitry.  
 Started development with **Jetson Nano prototypes** for architecture testing and schematic validation before migrating to the CM4 platform, optimizing connector layout, signal routing, and thermal performance.  
 Currently developing **C/C++ firmware** for display, input, and audio control, focusing on stable Linux bring-up and sub-10 ms I/O response.  
