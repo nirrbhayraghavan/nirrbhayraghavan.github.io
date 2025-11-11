@@ -12,15 +12,12 @@ My work bridges **hardware, firmware, and computation**, with a focus on buildin
 
 #### <b>Portable Handheld Gaming Console</b>
 
-<div style="position:relative;">
-  <img src="images/cm4_carrier_board.png" 
-       style="width:420px; position:absolute; right:-460px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
-       alt="CM4 Carrier Board Render">
-</div>
-
-<div style="position:relative;">
+<div style="margin: 30px 0; display: flex; justify-content: space-between; align-items: center;">
   <img src="images/code_snippet3.png" 
-       style="width:370px; position:absolute; left:-440px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       style="width: 370px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
+       alt="Code Snippet">
+  <img src="images/cm4_carrier_board.png" 
+       style="width: 420px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
        alt="Code Snippet">
 </div>
 
@@ -34,10 +31,13 @@ Planned next phase includes **porting the design to a CM5-based carrier board (A
 
 #### <b>Microcontroller Weather Station</b>  
 
-<div style="position:relative;">
+<div style="margin: 40px 0; display: flex; justify-content: space-between; align-items: center;">
   <img src="images/weather_station_pcb.png" 
-       style="width:370px; position:absolute; left:-440px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       style="width: 370px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
        alt="Weather Station Sensor-Hat PCB Render">
+  <img src="images/code_snippet2.png" 
+       style="width: 380px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
+       alt="Weather Station PCB">
 </div>
 
 Designed and completed a **custom sensor-hat PCB** for an ARM Proton board to handle PWM output, radio receiver input, and potentiometer control.  
@@ -45,17 +45,16 @@ Currently wiring additional sensors for temperature, humidity, and pressure on a
 Combining a finished PCB with flexible breadboard testing allows for rapid firmware iteration and peripheral debugging.  
 This project highlights practical circuit design, embedded programming, and real-time data acquisition at the microcontroller level.  
 
-
 ---
 
 #### <b>Real-Time Sensor Node (Embedded + FPGA Co-Design)</b>
 
-<div style="position:relative;">
+<div style="margin: 40px 0; display: flex; justify-content: flex-end;">
   <img src="images/code_snippet1.png" 
-       style="width:420px; position:absolute; right:-460px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       style="width: 420px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
        alt="Code Snippet of Project">
 </div>
- 
+
 Currently developing a **real-time sensor node platform** that integrates embedded and digital hardware design to achieve sub-10 ms system latency.  
 Implementing **ESP32 firmware in C/C++** for concurrent sensor acquisition, communication, and control, while designing a **Verilog-based UART and sensor interface module** for deterministic data timing.  
 Actively co-simulating embedded firmware and HDL logic to synchronize hardware–software interaction and validate timing accuracy.  
@@ -64,15 +63,14 @@ This ongoing project aims to bridge **MCU-level control and FPGA signal coordina
 
 ---
 
-
 ### **Past**
 
 
 #### <b>ESP32 HTTP Photo Server</b>
 
-<div style="position:relative;">
+<div style="margin: 40px 0; display: flex; justify-content: space-between; align-items: center;">
   <img src="images/schematic-esp32.png" 
-       style="width:370px; position:absolute; left:-440px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       style="width: 370px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
        alt="ESP32 schematic">
 </div>
 
@@ -86,15 +84,15 @@ This project highlights hands-on PCB design, embedded firmware integration, and 
 
 #### **Intelligent OCR Pipeline**
 
-<div style="position:relative;">
+<div style="margin: 40px 0; display: flex; justify-content: flex-end;">
   <img src="images/results.png" 
-       style="width:420px; position:absolute; right:-460px; top:0; border-radius:6px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       style="width: 420px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
        alt="Terminal UI">
 </div>
 
 Engineered a **multimodal OCR system** using Donut, LayoutLMv3, and DocTR to extract structured data from invoices.  
 Integrated the workflow into **Flask APIs and AWS Lambda**, linked to a PostgreSQL backend with fuzzy matching logic.  
 Optimized inference pipelines for 89% field-level accuracy while maintaining scalability and low-latency performance.  
-This project bridges high-level AI model development with embedded deployment, demonstrating software efficiency and real-world integration.
+This project bridges high-level AI model development with embedded deployment, demonstrating software efficiency and real-world integration.  
 
 ---
