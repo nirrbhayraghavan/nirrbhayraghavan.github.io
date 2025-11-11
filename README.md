@@ -3,6 +3,8 @@
 I’m a Computer Engineering student at **Purdue University (Class of 2027)** passionate about **end-to-end system design**, from PCB layout and embedded firmware to FPGA and AI-driven software.  
 My work bridges **hardware, firmware, and computation**, with a focus on building high-performance, real-time systems.
 
+#### <b>Link to all assets here with previews below</b> [![GitHub Repo](https://img.shields.io/badge/View_All_Projects_on-GitHub-black?logo=github)](https://github.com/nirrbhayraghavan/Projects)
+
 
 ## Featured Projects
 
