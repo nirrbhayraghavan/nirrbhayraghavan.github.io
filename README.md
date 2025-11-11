@@ -12,13 +12,10 @@ My work bridges **hardware, firmware, and computation**, with a focus on buildin
 
 #### <b>Portable Handheld Gaming Console</b>
 
-<div style="margin: 30px 0; display: flex; justify-content: space-between; align-items: center;">
-  <img src="images/code_snippet3.png" 
-       style="width: 370px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
-       alt="Code Snippet">
+<div style="position:relative;">
   <img src="images/cm4_carrier_board.png" 
-       style="width: 420px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
-       alt="Code Snippet">
+       style="width:340px; position:absolute; right:-420px; top:0; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Raspberry Pi CM4 Carrier Board Render">
 </div>
 
 Initiated this project by designing a **custom two-layer Raspberry Pi Compute Module 4 (CM4) carrier board**, integrating dual displays, I²S audio DAC, and USB-C PD circuitry.  
@@ -31,13 +28,10 @@ Planned next phase includes **porting the design to a CM5-based carrier board (A
 
 #### <b>Microcontroller Weather Station</b>  
 
-<div style="margin: 40px 0; display: flex; justify-content: space-between; align-items: center;">
+<div style="position:relative;">
   <img src="images/weather_station_pcb.png" 
-       style="width: 370px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
-       alt="Weather Station Sensor-Hat PCB Render">
-  <img src="images/code_snippet2.png" 
-       style="width: 380px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
-       alt="Weather Station PCB">
+       style="width:330px; position:absolute; left:-400px; top:0; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Weather Station PCB Render">
 </div>
 
 Designed and completed a **custom sensor-hat PCB** for an ARM Proton board to handle PWM output, radio receiver input, and potentiometer control.  
@@ -49,10 +43,10 @@ This project highlights practical circuit design, embedded programming, and real
 
 #### <b>Real-Time Sensor Node (Embedded + FPGA Co-Design)</b>
 
-<div style="margin: 40px 0; display: flex; justify-content: flex-end;">
+<div style="position:relative;">
   <img src="images/code_snippet1.png" 
-       style="width: 420px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
-       alt="Code Snippet of Project">
+       style="width:340px; position:absolute; right:-420px; top:0; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Verilog Code Snippet">
 </div>
 
 Currently developing a **real-time sensor node platform** that integrates embedded and digital hardware design to achieve sub-10 ms system latency.  
@@ -68,10 +62,10 @@ This ongoing project aims to bridge **MCU-level control and FPGA signal coordina
 
 #### <b>ESP32 HTTP Photo Server</b>
 
-<div style="margin: 40px 0; display: flex; justify-content: space-between; align-items: center;">
+<div style="position:relative;">
   <img src="images/schematic-esp32.png" 
-       style="width: 370px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
-       alt="ESP32 schematic">
+       style="width:330px; position:absolute; left:-400px; top:0; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="ESP32 Schematic">
 </div>
 
 Designed and built a **custom ESP32-based HTTP photo server** with USB-C power regulation, MicroSD storage, and a SPI TFT display header using KiCad.  
@@ -82,12 +76,12 @@ This project highlights hands-on PCB design, embedded firmware integration, and 
 
 ---
 
-#### **Intelligent OCR Pipeline**
+#### <b>Intelligent OCR Pipeline</b>
 
-<div style="margin: 40px 0; display: flex; justify-content: flex-end;">
+<div style="position:relative;">
   <img src="images/results.png" 
-       style="width: 420px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" 
-       alt="Terminal UI">
+       style="width:340px; position:absolute; right:-420px; top:0; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
+       alt="Terminal UI Screenshot">
 </div>
 
 Engineered a **multimodal OCR system** using Donut, LayoutLMv3, and DocTR to extract structured data from invoices.  
