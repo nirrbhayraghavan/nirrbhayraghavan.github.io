@@ -7,7 +7,7 @@ My work bridges **hardware, firmware, and computation**, with a focus on buildin
 ## Featured Projects
 
 
-### Current
+### **Current**
 
 
 #### **Portable Handheld Gaming Console**  
@@ -37,7 +37,7 @@ This ongoing project aims to bridge **MCU-level control and FPGA signal coordina
 ---
 
 
-### Past
+### **Past**
 
 
 #### **ESP32 HTTP Photo Server** 
