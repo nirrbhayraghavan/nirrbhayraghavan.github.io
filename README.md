@@ -1,10 +1,14 @@
-Hi, I'm Nirrbhay Raghavan  
+# Hi, I'm Nirrbhay Raghavan  
 
 I’m a Computer Engineering student at **Purdue University (Class of 2027)** passionate about **end-to-end system design** — from PCB layout and embedded firmware to FPGA and AI-driven software.  
 My work bridges **hardware, firmware, and computation**, with a focus on building high-performance, real-time systems.
 
 
-Featured Projects
+## Featured Projects
+
+
+### Current
+
 
 Portable Handheld Gaming Console  
 Initiated this project by designing a **custom two-layer Raspberry Pi Compute Module 4 (CM4) carrier board**, integrating dual displays, I²S audio DAC, and USB-C PD circuitry.  
@@ -15,29 +19,33 @@ Planned next phase includes **porting the design to a CM5-based carrier board (A
 
 ---
 
-ESP32 HTTP Photo Server  
-Designed and assembled a **custom ESP32 board** with USB-C power, TFT display, and MicroSD storage using KiCad.  
-Developed **FreeRTOS-based firmware** in C++ for concurrent image capture, data buffering, and Wi-Fi transmission.  
-Implemented asynchronous task scheduling and memory optimization for efficient power usage and near real-time streaming.  
-Validated throughput and latency improvements via logic analysis and benchmarking.  
-This project demonstrates hardware-software co-design for IoT devices and edge data processing.
+Microcontroller Weather Station  
+Designed and completed a **custom sensor-hat PCB** for an ARM Proton board to handle PWM output, radio receiver input, and potentiometer control.  
+Currently wiring additional sensors for temperature, humidity, and pressure on a **breadboard circuit**, with ongoing **C/C++ firmware development** for sensor acquisition, data logging, and SD card integration.  
+Combining a finished PCB with flexible breadboard testing allows for rapid firmware iteration and peripheral debugging.  
+This project highlights practical circuit design, embedded programming, and real-time data acquisition at the microcontroller level.  
 
 ---
 
 Real-Time Sensor Node (Embedded + FPGA Co-Design)  
-Developed a **real-time sensor node platform** combining embedded and digital design techniques for sub-10 ms response latency.  
-On the embedded side, implemented **FreeRTOS multitasking firmware** on ESP32 for concurrent sensor, communication, and control tasks.  
-In parallel, designed a **Verilog-based UART and sensor interface module**, co-simulated with embedded firmware to verify data timing and determinism.  
-Validated system synchronization using oscilloscopes and HDL simulation tools, integrating hardware and firmware for real-time operation.  
-This unified project blends embedded firmware, digital logic design, and timing verification — bridging the gap between MCU-level control and FPGA signal handling.
+Currently developing a **real-time sensor node platform** that integrates embedded and digital hardware design to achieve sub-10 ms system latency.  
+Implementing **ESP32 firmware in C/C++** for concurrent sensor acquisition, communication, and control, while designing a **Verilog-based UART and sensor interface module** for deterministic data timing.  
+Actively co-simulating embedded firmware and HDL logic to synchronize hardware–software interaction and validate timing accuracy.  
+Using oscilloscopes and simulation tools to benchmark latency, signal stability, and overall system responsiveness.  
+This ongoing project aims to bridge **MCU-level control and FPGA signal coordination**, creating a unified, low-latency architecture for next-generation embedded systems.  
 
 ---
 
-Microcontroller Weather Station  
-Created a **sensor-hat PCB** for an ARM Proton board to monitor temperature, humidity, and pressure.  
-Programmed in **C and Assembly** to interface with GPIO, SPI, and UART peripherals for live sensor acquisition.  
-Integrated real-time data display and serial telemetry parser with interrupt-driven routines for reliable communication.  
-This project exemplifies embedded control, circuit integration, and data communication at the microcontroller level.
+
+### Past
+
+
+ESP32 HTTP Photo Server  
+Designed and built a **custom ESP32-based HTTP photo server** with USB-C power regulation, MicroSD storage, and a SPI TFT display header using KiCad.  
+Developed **C++ firmware** for camera image capture, local storage, and Wi-Fi-based streaming.  
+Handled peripheral communication via SPI and UART interfaces, optimizing timing and buffer management for smooth data flow.  
+Taught and guided students through full system assembly and firmware programming as part of an instructional project.  
+This project highlights hands-on PCB design, embedded firmware integration, and end-to-end IoT system development.  
 
 ---
 
@@ -48,4 +56,3 @@ Optimized inference pipelines for 89% field-level accuracy while maintaining sca
 This project bridges high-level AI model development with embedded deployment, demonstrating software efficiency and real-world integration.
 
 ---
-
