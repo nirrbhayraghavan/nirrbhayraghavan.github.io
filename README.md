@@ -31,7 +31,7 @@ Planned next phase includes **porting the design to a CM5-based carrier board (A
 #### <b>Microcontroller Weather Station</b>  
 
 <div style="position:relative;">
-  <img src="images/weather_station_pcb.png" 
+  <img src="images/pcb_ws.png" 
        style="width:330px; position:absolute; left:-400px; top:0; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.15);" 
        alt="Weather Station PCB Render">
 </div>
